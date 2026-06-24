@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Prajwal",
   tagline:
-    "Cloud/DevOps Enthusiast  |  Backend · Automation · Pipelines · Infrastructure",
+    "Cloud/DevOps Enthusiast  | Interested in:  Backend · Automation · Pipelines · Infrastructure",
   about: [
     "Hi, I'm Prajwal — an MCA graduate and cloud enthusiast who builds backend and full-stack projects to push them through CI/CD pipelines, containerization, and cloud environments.",
     "I'm primarily an application builder, but a DevOps internship drove me to go deeper — deploying apps inside CSPs and simulating production environments using Docker, Kubernetes, Jenkins, GitHub Actions, GitLab CI, and Linux/Windows servers.",

@@ -5,6 +5,7 @@ import Stack from "@mui/material/Stack";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import { personalInfo } from "../data/portfolioData";
+import Image from "next/image";
 
 const highlights: string[] = [
   "MCA Graduate",
@@ -55,6 +56,18 @@ export default function About() {
                 {paragraph}
               </Typography>
             ))}
+            <Image
+              src="/my-image.jpeg"
+              alt="About Image"
+              width={270}
+              height={270}
+              style={{
+                borderRadius: "50%",
+                border: "1px solid #39FF14",
+                objectFit: "cover",
+                flexShrink: 0,
+              }}
+            />
           </Stack>
 
           <Grid container spacing={2}>
